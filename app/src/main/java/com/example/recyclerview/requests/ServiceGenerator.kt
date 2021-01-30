@@ -6,6 +6,7 @@ import com.example.recyclerview.util.Constants
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+@RequiresApi(Build.VERSION_CODES.N)
 object ServiceGenerator {
     @RequiresApi(Build.VERSION_CODES.N)
     private val retrofitBuilder: Retrofit.Builder = Retrofit.Builder().baseUrl(Constants.BASE_URL)

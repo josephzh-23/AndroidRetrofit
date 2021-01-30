@@ -32,7 +32,6 @@ class ProductsAdapter(val listener2: OnItemClickListener) : BaseRecyclerViewAdap
 
     }
 
-
     //Build an interface for callback
 
     interface OnItemClickListener {

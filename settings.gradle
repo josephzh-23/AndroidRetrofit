@@ -1,2 +1,4 @@
+include ':app:FrontEnd'
+include ':app:Multi-threading'
 include ':app'
 rootProject.name = "RecyclerView"

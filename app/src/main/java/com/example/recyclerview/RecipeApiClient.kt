@@ -42,12 +42,12 @@ class RecipeApiClient{
     }
 
 
-    public class RetrieveRecipeReunnable:Runnable(val query: String,
-    val pageNumber:Int, val cancelRequest: Boolean?=false){
-
-        fun Run(){
-
-
-        }
-    }
+//    public class RetrieveRecipeReunnable:Runnable(val query: String,
+//    val pageNumber:Int, val cancelRequest: Boolean?=false){
+//
+//        fun Run(){
+//
+//
+//        }
+//    }
 }
